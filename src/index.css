@@ -22,3 +22,16 @@ header, footer, main {
 #root {
   @apply h-screen flex flex-col items-center;
 }
+
+.markdown {
+  @apply prose max-w-full w-full p-2 break-words;
+}
+.markdown code {
+  @apply bg-zinc-300 py-0.5 px-1 rounded;
+}
+.markdown code::before {
+  content: '';
+}
+.markdown code::after {
+  content: '';
+}
