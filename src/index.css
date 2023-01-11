@@ -11,7 +11,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  @apply max-w-screen-xl p-1;
+}
+
+header, footer, main {
+  @apply w-full;
+}
+
+#root {
+  @apply h-screen flex flex-col items-center;
 }
